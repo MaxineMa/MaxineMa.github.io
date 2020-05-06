@@ -18,8 +18,8 @@ price ever, \$19.30.
 
  
 
-**We want to see where this crashing and burning company is headed, so we set
-out to forecast its stock prices for the next 10 days. **
+We want to see where this crashing and burning company is headed, so we set
+out to forecast its stock prices for the next 10 days. 
 
  
 
