@@ -21,8 +21,6 @@ price ever, \$19.30.
 We want to see where this crashing and burning company is headed, so we set
 out to forecast its stock prices for the next 10 days. 
 
- 
-
 However, this set of market data obviously would not include data points on days
 the market was closed: weekends and holidays. To remedy this, we generated from
 the original data a “padded” dataset using splines, which is a form of
@@ -34,8 +32,6 @@ a piecewise polynomial function to generate points for Saturday and Sunday
 between Friday and the following Monday, while another method might have just
 picked the weekend points out of a straight line connecting Monday and Friday,
 flattening variability.
-
- 
 
 Now that we had a more complete dataset to work with, our goal was to strip the
 data of all distinguishing features until it was a white noise process (one can
@@ -51,19 +47,13 @@ single source, just collected at different points in time, this is unlikely, so
 we employ tools to make sure that the correlation between points is under some
 acceptable interval.
 
- 
-
 **The Nitty-Gritty**
-
- 
 
 Upon seeing that the first half of the data had up and downs at a much larger
 magnitude than the second half, we stabilized the variance by taking the log of
 the price. This essentially squishes the magnitude of the values down so that
 the variability is a little more uniform, not quite so different as time goes
 on.
-
- 
 
 To remove the trend of the data points over time, we fit a linear regression
 model, creating an equation where the (logged) stock price of Mediocre Apps
@@ -89,15 +79,8 @@ finite variance.
 
 Using our model, we forecasted the stock price of the next 10 trading days.
 Above, we’ve shown you the plot starting at day 1461, the first day of 2019, so
-that you can clearly see the tiny data points that we’ve forecasted. 
-
- 
-
-Fortunately for Mediocre Social Network Apps, it predicts that the company’s
-stock price will pick up, but only by about 17 cents, listing October 14 as
+that you can clearly see the tiny data points that we’ve forecasted. Fortunately for Mediocre Social Network Apps, it predicts that the company’s stock price will pick up, but only by about 17 cents, listing October 14 as
 being \$20.65 when the market closes. 
-
- 
 
 Experts hesitate to say that this is indicative of an improvement in the
 operations of Mediocre Apps, as such a small change could easily be nothing more
