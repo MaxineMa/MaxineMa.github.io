@@ -3,8 +3,6 @@ Mediocre Social Network Apps Incorporated Has Had a Rocky Couple of Years, Stock
 
 *By Adele Shen, Jane Zhang, and Maxine Ma*
 
- 
-
 Mediocre Social Network Apps Incorporated has seen plummeting stock prices since
 January 2015, when it IPOed on January 2nd at a lofty \$39.02. The excitement
 lasted into the following week, when the share price climbed to \$39.78. This
@@ -15,8 +13,6 @@ September 6, 2019, the market closed with Mediocre Apps at its lowest stock
 price ever, \$19.30.
 
 ![](https://lh5.googleusercontent.com/exPFTJWHi6_HsvVg_kJnY5CYr0p1xO5tFbwZdFHGxI0WwsGbzOIi1xJmiN3nML_nmrxJ1CPX3mmytLV_FR8ldIQy7oScMLBLYu6usoZwSbyF-NKTEw-shxhkRWNzrf-5IYqByDiY)
-
- 
 
 We want to see where this crashing and burning company is headed, so we set
 out to forecast its stock prices for the next 10 days. 
